@@ -19,4 +19,15 @@ module.exports = {
       config: {},
     },
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'asutptec4',
+          name: 'electron-app',
+        },
+      },
+    },
+  ],
 };
